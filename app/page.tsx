@@ -8,6 +8,7 @@ export default function Home() {
       <div className="w-screen lg:w-[1400px] px-3 md:px-5">
         <Navbar />
         <Hero />
+        
       </div>
     </section>
   );

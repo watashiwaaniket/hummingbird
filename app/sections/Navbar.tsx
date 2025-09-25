@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return(
         <section className="py-6 bg-black fixed top-0 left-0 right-0 z-50 flex items-center justify-center">
-            <div className="flex items-center justify-between w-screen lg:w-[1400px]">
+            <div className="flex items-center justify-between w-screen lg:w-[1400px] px-3 md:px-5">
                 <div>
                     <h2 className="font-bitcount text-2xl md:text-3xl flex items-center">
                         <Image src="/hummingbird.png" width={48} height={48} alt="logo"/>

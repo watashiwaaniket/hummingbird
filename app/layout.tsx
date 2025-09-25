@@ -15,7 +15,7 @@ const ibmPlex = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: "Hummingbird - maneuvering through ai research",
-  description: "Hummingbird is an org which fosters the best ai and ml researchers on this planet, united for a cause of bringing forth the AGI and the era of ultimate intelligence.",
+  description: "Hummingbird is an org which fosters the best research centric LLM model on this planet, built for a cause of bringing forth the AGI and the era of ultimate intelligence.",
   icons: {
     icon: "/hummingbird.png",
   },

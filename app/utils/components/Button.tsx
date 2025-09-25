@@ -11,7 +11,7 @@ export interface ButtonProp{
 export default function Button({label, serial, icon, type} : ButtonProp) {
     return(
         <button className={`
-            px-4 py-2 text-lg rounded-sm font-medium tracking-tight flex items-center justify-between min-w-48 hover:cursor-pointer 
+            px-4 py-2 text-lg rounded-sm font-medium tracking-tight flex items-center justify-between min-w-full sm:min-w-48 hover:cursor-pointer 
             ${type == "label" ? 'bg-neutral-900' : ''}
             ${type == "primary" ? 'bg-neutral-100 text-neutral-950' : ''}
         `}>

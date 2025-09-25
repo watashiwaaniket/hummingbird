@@ -16,7 +16,7 @@ export default function Hero() {
             <p className="text-sm text-neutral-500 font-bitcount">Proud to be run by cracked devs.</p>
         </div>
         <div className="flex">
-            <InfoCard name="Hisukurifu" avatar="/hisukurifu.jpeg" designation="Design Engineer"/>
+            <InfoCard name="Hisukurifu" avatar="/hisukurifu.jpeg" designation="Design Engineer" xacc="https://x.com/astriknormal"/>
         </div>
         <div className="py-8">
             <HeroCard
